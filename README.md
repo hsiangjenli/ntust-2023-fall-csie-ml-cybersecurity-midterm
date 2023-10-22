@@ -6,7 +6,7 @@ USERNAME=myusername
 PASSWORD=mypassword
 ```
 
-## 安裝將 PE32 轉 Bytecode 的工具
+## 安裝將 PE32 轉 Binary 的工具
 ```bash
 sudo apt-get install xxd
 ```
