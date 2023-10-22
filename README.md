@@ -30,6 +30,10 @@ make unzip2bytescode
 > - 並且帶入環境變數 `USERNAME` 與 `PASSWORD`，這兩個環境變數會被 `vs.py` 讀取，並且登入 VirusShare
 > - 接著會下載 `--family` 所指定的家族樣本（在 `motif_reports.csv` 裡面，該 family 的病毒如果有在 VirusShare 就會被下載下來變成 zip 檔。）
 
+### 我選的 family（我隨便選的）
+- icedid（實際有的約 70 個檔案）
+- maze（約 20 個檔案）
+- azorult（不到 10 個）
 
 # MOTIF
 ```javascript
