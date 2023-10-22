@@ -1,9 +1,22 @@
 # How to use ?
+## 新增 `.env` 檔案
 在這個目錄下新增 `.env` 檔案，並且填入 VirusShare 的帳號密碼
 ```javascript
 USERNAME=myusername
 PASSWORD=mypassword
 ```
+
+## 安裝將 PE32 轉 Bytecode 的工具
+```bash
+sudo apt-get install xxd
+```
+
+## 安裝解析網頁的工具
+```bash
+pip install bs4
+```
+### 可以開始使用了～～～
+
 接著執行
 
 ```bash
