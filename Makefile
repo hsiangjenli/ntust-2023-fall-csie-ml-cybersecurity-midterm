@@ -4,8 +4,6 @@ ZIP_FOLDER := zip_folder
 UNZIPPED_FOLDER := unzipped_folder
 BYTESCODE_FOLDER := bytescode_folder
 
-all: download unzip unzip2bytescode
-
 # Download the motif_reports.csv file from the MOTIF repository =============================================================
 download:
 	mkdir -p $(ZIP_FOLDER)

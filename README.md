@@ -20,7 +20,9 @@ pip install bs4
 接著執行
 
 ```bash
-make all
+make download
+make uzip
+make unzip2bytescode
 ```
 > 解釋  
 > 
